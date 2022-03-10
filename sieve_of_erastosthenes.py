@@ -38,7 +38,7 @@ class Test(unittest.TestCase):
         self.assertEqual(self.siv1.prime, [2, 3, 5, 7, 11, 13, 17, 19])
 
     def test_methods(self):
-        i = random. randint(1, 100000)
+        i = random. randint(10, 1000000)
         # print(i)
         self.siv1.my_compute_primes(i)
         self.siv2.compute_primes(i)
